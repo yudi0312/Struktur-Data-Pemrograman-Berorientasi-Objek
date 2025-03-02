@@ -1,20 +1,18 @@
 #include <iostream>
 using namespace std;
 
-class Mahasiswa {
+class MHS {
   public:
-  string Name;
+  string MhsName;
 
   void printName() {
-    cout << "Nama Mahasiswa: " << Name;
+    cout << "Nama Mahasiswa: " << MhsName;
   }
 };
 
 int main() {
-  Mahasiswa mhs1;
-
-  mhs1.Name = "Rahmat Budi";
-
+  MHS mhs1;
+  mhs1.MhsName = "afin pujo ardi";
   mhs1.printName();
   return 0;
-}
+} 
