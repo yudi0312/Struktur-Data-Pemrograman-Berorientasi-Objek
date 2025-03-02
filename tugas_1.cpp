@@ -6,7 +6,7 @@ class MHS {
   string MHSName;
 
   void printName() {
-    cout << "MHS name is : " << MhsName;
+    cout << "MHS name is : " << MHSName;
   }
 };
 
